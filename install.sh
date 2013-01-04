@@ -6,12 +6,12 @@ SITES=~/Sites
 DOTFILES=~/.dotfiles
 
 if [ ! -d $CODE ]; then
-    echo "Creating $CODE directory..."
+    echo "\033[0;33mCreating $CODE directory...\e[00m"
     mkdir $CODE
 fi
 
 if [ ! -d $SITES ]; then
-    echo "Creating $SITES directory..."
+    echo "\033[0;33mCreating $SITES directory...\e[00m"
     mkdir $SITES
 fi
 
@@ -21,7 +21,7 @@ sudo apt-get install git vim zsh pidgin ack curl mc python-setuptools apache2 my
 # pip & virtualenv
 
 if command -v pip > /dev/null 2>&1; then
-    echo "Installing pip..."
+    echo "\033[0;33mInstalling pip...\e[00m"
     sudo easy_install pip
 fi
 
@@ -29,27 +29,27 @@ sudo pip install virtualenv virtualenvwrapper
 
 # oh-my-zsh
 if [ -d ~/.oh-my-zsh ]; then
-    echo "Folder .oh-my-zsh already exists and it's being removed..."
+    echo "\033[0;33mFolder .oh-my-zsh already exists and it's being removed...\e[00m"
     rm -rf ~/.oh-my-zsh
 fi
 
-echo "Cloning oh-my-zsh..."
+echo "\033[0;33mCloning oh-my-zsh...\e[00m"
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then
     mv -b ~/.zshrc ~/.zshrc.bak
 fi
 
-echo "Setting zsh as default shell..."
+echo "\033[0;33mSetting zsh as default shell...\e[00m"
 chsh -s `which zsh`
 
 if [ -d $DOTFILES ]; then
-    echo "Folder $DOTFILES already exists and it's being removed..."
+    echo "\033[0;33mFolder $DOTFILES already exists and it's being removed...\e[00m"
     rm -rf $DOTFILES
 fi
 
-echo "Cloning dotfiles..."
+echo "\033[0;33mCloning dotfiles...\e[00m"
 git clone git://github.com/ondrowan/dotfiles.git $DOTFILES
 
-echo "Symlinking .zshrc..."
+echo "\033[0;33mSymlinking .zshrc...\e[00m"
 ln $DOTFILES/.zshrc ~/.zshrc
