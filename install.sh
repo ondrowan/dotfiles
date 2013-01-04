@@ -13,7 +13,7 @@ if [ ! -d $SITES ]; then
 fi
 
 # stuff
-sudo apt-get install git zsh ack curl mc python-setuptools apache2 mysql-server postgresql php5 php5-cli php5-curl php5-gd php5-imagick php5-intl php5-mongo php5-mysqlnd php5-pgsql php5-sqlite php5-suhosin php5-xdebug
+sudo apt-get install git vim zsh pidgin ack curl mc python-setuptools apache2 mysql-server postgresql php5 php5-cli php-pear php5-curl php5-gd php5-imagick php5-intl php5-mongo php5-mysqlnd php5-pgsql php5-sqlite php5-suhosin php5-xdebug
 
 # pip & virtualenv
 sudo easy_install pip
