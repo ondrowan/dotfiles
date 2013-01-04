@@ -45,7 +45,7 @@ chsh -s `which zsh`
 
 if [ -d $DOTFILES ]; then
     echo "Folder $DOTFILES already exists and it's being removed..."
-    rm -rf $DOTILES
+    rm -rf $DOTFILES
 fi
 
 echo "Cloning dotfiles..."
