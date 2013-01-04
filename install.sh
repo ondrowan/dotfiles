@@ -4,11 +4,11 @@ USER=`whoami`
 CODE=$HOME/Code
 SITES=$HOME/Sites
 
-if [!-d $CODE]; then
+if [ ! -d $CODE ]; then
     mkdir $CODE
 fi
 
-if [!-d $SITES]; then
+if [ ! -d $SITES ]; then
     mkdir $SITES
 fi
 
