@@ -1,8 +1,8 @@
 set -e
 
 USER=`whoami`
-CODE=$HOME/Code
-SITES=$HOME/Sites
+CODE=~/Code
+SITES=~/Sites
 
 if [ ! -d $CODE ]; then
     mkdir $CODE
@@ -20,14 +20,14 @@ sudo easy_install pip
 sudo pip install virtualenv virtualenvwrapper
 
 # oh-my-zsh
-if [ -d $HOME/.oh-my-zsh ]; then
-    rm -rf $HOME/.oh-my-zsh
+if [ -d ~/.oh-my-zsh ]; then
+    rm -rf ~/.oh-my-zsh
 fi
 
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
-if [ -f $HOME/.zshrc ]; then
-    mv $HOME/.zshrc $HOME/.zshrc.bak
+if [ -f ~/.zshrc ]; then
+    mv ~/.zshrc ~/.zshrc.bak
 fi
 
 chsh -s `which zsh`
