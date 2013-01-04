@@ -20,5 +20,14 @@ sudo easy_install pip
 sudo pip install virtualenv virtualenvwrapper
 
 # oh-my-zsh
+if [ -d $HOME/.oh-my-zsh ]; then
+    rm -rf $HOME/.oh-my-zsh
+fi
+
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+if [ -f $HOME/.zshrc ]; then
+    mv $HOME/.zshrc $HOME/.zshrc.bak
+fi
+
 chsh -s `which zsh`
