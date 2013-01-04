@@ -3,6 +3,7 @@ set -e
 USER=`whoami`
 CODE=~/Code
 SITES=~/Sites
+DOTFILES=~/.dotfiles
 
 if [ ! -d $CODE ]; then
     mkdir $CODE
@@ -31,3 +32,7 @@ if [ -f ~/.zshrc ]; then
 fi
 
 chsh -s `which zsh`
+
+git clone git://github.com/ondrowan/dotfiles.git $DOTFILES
+
+ln $DOTFILES/.zshrc ~/.zshrc
