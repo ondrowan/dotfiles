@@ -33,6 +33,10 @@ fi
 
 chsh -s `which zsh`
 
+if [ -d $DOTFILES ]; then
+    rm -rf $DOTILES
+fi
+
 git clone git://github.com/ondrowan/dotfiles.git $DOTFILES
 
 ln $DOTFILES/.zshrc ~/.zshrc
