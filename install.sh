@@ -36,7 +36,7 @@ fi
 echo "Cloning oh-my-zsh..."
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
-if [ -f ~/.zshrc ]; then
+if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then
     mv ~/.zshrc ~/.zshrc.bak
 fi
 
