@@ -1,3 +1,5 @@
+echo "Welcome to the world of tomorrow!"
+
 DOTFILES=~/.dotfiles
 
 ZSH=$HOME/.oh-my-zsh
