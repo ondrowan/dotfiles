@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django)
+plugins=(git python django zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -23,5 +23,3 @@ SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
 
 eval $( dircolors -b $DOTFILES/LS_COLORS)
-
-source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
