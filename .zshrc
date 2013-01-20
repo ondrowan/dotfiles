@@ -16,3 +16,8 @@ export PATH=/usr/local/heroku/bin:/home/ondrej/.pythonbrew/bin:/usr/lib/lightdm/
 # python virtual env wrapper
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt HIST_IGNORE_ALL_DUPS
