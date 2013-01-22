@@ -11,7 +11,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django symfony2 zsh-syntax-highlighting composer)
+plugins=(git python django symfony2 zsh-syntax-highlighting composer virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
