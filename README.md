@@ -16,6 +16,6 @@ Installation
 * Clone this repo to convenient directory: `git clone git://github.com/ondrowan/dotfiles.git ~/.dotfiles`
 * Init and update submodules: `git submodule update --init`
 * Symlink .zshrc to ~/.zshrc: `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
-* Make zsh default shell: ``chsh -s `which zsh```
+* Make zsh default shell: `` chsh -s `which zsh` ``
 * Logout and login again
 * Enjoy shinies
