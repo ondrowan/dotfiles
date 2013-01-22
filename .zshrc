@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django symfony2)
+plugins=(git python django symfony2 zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -16,3 +16,10 @@ export PATH=/usr/local/heroku/bin:/home/ondrej/.pythonbrew/bin:/usr/lib/lightdm/
 # python virtual env wrapper
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt HIST_IGNORE_ALL_DUPS
+
+eval $( dircolors -b $DOTFILES/LS_COLORS)
