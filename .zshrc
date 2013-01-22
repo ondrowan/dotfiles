@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django)
+plugins=(git python django symfony2)
 
 source $ZSH/oh-my-zsh.sh
 
