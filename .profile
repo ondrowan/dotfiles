@@ -6,7 +6,7 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # includes .local/bin to path if it exists
-if [ -d "~/.local/bin" ]; then
-    PATH="~/.local/bin:$PATH"
+if [ -d ~/.local/bin ]; then
+    PATH=~/.local/bin:$PATH
 fi
 
