@@ -19,6 +19,9 @@ source $ZSH/oh-my-zsh.sh
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+# pythonbrew
+[[ -s ~/.pythonbrew/etc/bashrc ]] && source ~/.pythonbrew/etc/bashrc
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
