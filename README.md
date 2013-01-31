@@ -19,3 +19,9 @@ Installation
 * Make zsh default shell: `` chsh -s `which zsh` ``
 * Logout and login again
 * Enjoy shinies
+
+
+Extending .zshrc
+----------------
+
+`.zshrc` always sources `.localrc` if it exists. Put whatever additional aliases or commands there.
