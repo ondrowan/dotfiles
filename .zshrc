@@ -1,10 +1,5 @@
 echo "Welcome to the world of tomorrow!"
 
-if [ -f ~/.localrc ]
-then
-    source ~/.localrc
-fi
-
 DOTFILES=~/.dotfiles
 
 ZSH=$HOME/.oh-my-zsh
@@ -28,3 +23,8 @@ SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
 
 eval $( dircolors -b $DOTFILES/LS_COLORS)
+
+if [ -f ~/.localrc ]
+then
+    source ~/.localrc
+fi

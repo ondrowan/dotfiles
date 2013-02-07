@@ -25,3 +25,4 @@ Extending .zshrc
 ----------------
 
 `.zshrc` always sources `.localrc` if it exists. Put whatever additional aliases or commands there.
+`.localrc` is the last thing in `.zshrc`, so feel free to override anything you don't like also.
