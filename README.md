@@ -15,7 +15,7 @@ Installation
 
 * Clone this repo to convenient directory: `git clone git://github.com/ondrowan/dotfiles.git ~/.dotfiles`
 * Init and update submodules: `git submodule update --init`
-* Symlink .zshrc to ~/.zshrc: `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
+* Symlink any dotfiles you like to home directory. Eg. .zshrc to ~/.zshrc: `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
 * Make zsh default shell: `` chsh -s `which zsh` ``
 * Logout and login again
 * Enjoy shinies
@@ -28,3 +28,9 @@ Extending .zshrc
 `.localrc` is the last thing in `.zshrc`, so feel free to override anything you don't like also.
 
 If you wish to extend `PATH`, you should do it in `~/.zshenv` as it's sourced on every shell invocation.
+
+
+Extending .gitconfig
+--------------------
+
+`.gitconfig` sources `~/.gitlocal` if it exists. Save any local modifications (name, email...) there.

@@ -1,0 +1,14 @@
+[core]
+    editor = vim
+
+[push]
+    default = current
+
+[color]
+    ui = true
+
+[help]
+    autocorrect = 1
+
+[include]
+    path = ~/.gitlocal
