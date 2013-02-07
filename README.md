@@ -26,3 +26,5 @@ Extending .zshrc
 
 `.zshrc` always sources `.localrc` if it exists. Put whatever additional aliases or commands there.
 `.localrc` is the last thing in `.zshrc`, so feel free to override anything you don't like also.
+
+If you wish to extend `PATH`, you should do it in `~/.zshenv` as it's sourced on every shell invocation.
