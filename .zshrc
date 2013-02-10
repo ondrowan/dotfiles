@@ -24,6 +24,9 @@ setopt HIST_IGNORE_ALL_DUPS
 
 eval $( dircolors -b $DOTFILES/LS_COLORS)
 
+# tmux
+alias tmux="TERM=xterm-256color tmux"
+
 if [ -f ~/.localrc ]
 then
     source ~/.localrc
