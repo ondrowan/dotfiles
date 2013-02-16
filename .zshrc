@@ -27,6 +27,11 @@ eval $( dircolors -b $DOTFILES/LS_COLORS)
 # tmux
 alias tmux="TERM=xterm-256color tmux"
 
+# aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 if [ -f ~/.localrc ]
 then
     source ~/.localrc
