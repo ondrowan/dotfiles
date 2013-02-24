@@ -25,7 +25,14 @@ setopt HIST_IGNORE_ALL_DUPS
 eval $( dircolors -b $DOTFILES/LS_COLORS)
 
 # tmux
-alias tmux="TERM=xterm-256color tmux"
+function safe_tmux() {
+    if command -v deactivate > /dev/null 2>&1; then
+        deactivate
+    fi
+    TERM=xterm-256color \tmux;
+}
+
+alias tmux='safe_tmux'
 
 # aliases
 alias ll='ls -alF'
