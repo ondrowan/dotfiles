@@ -6,13 +6,16 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django symfony2 zsh-syntax-highlighting composer virtualenvwrapper history-substring-search)
+plugins=(git python django symfony2 zsh-syntax-highlighting composer history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
 # python virtual env wrapper
-export WORKON_HOME=~/.virtualenvs
-source ~/.local/bin/virtualenvwrapper.sh
+if [ -f ~/.local/bin/virtualenvwrapper.sh ]; then
+    export WORKON_HOME=~/.virtualenvs
+    source ~/.local/bin/virtualenvwrapper.sh
+    plugins=("${plugins[@]}" virtualenvwrapper)
+fi
 
 # pythonbrew
 [[ -s ~/.pythonbrew/etc/bashrc ]] && source ~/.pythonbrew/etc/bashrc
