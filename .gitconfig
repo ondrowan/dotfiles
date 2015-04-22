@@ -12,3 +12,7 @@
 
 [include]
     path = ~/.gitlocal
+
+[user]
+    name = Ondrej Slinták
+    email = ondrowan@gmail.com
