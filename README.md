@@ -1,21 +1,27 @@
 Dotfiles
 ========
 
-Set of useful dotfiles (not just) for fresh *nix installs.
+Set of my personal dotfiles. Feel free to use any part you find useful. Do not
+install those as-is as there are several specific personal settings (as git
+name and email).
 
 
 What dotfiles does it contain?
 ------------------------------
 
-* zsh config
+* zsh
+* git
 
 
 Installation
 ------------
 
-* Clone this repo to convenient directory: `git clone git://github.com/ondrowan/dotfiles.git ~/.dotfiles`
+* Clone this repo to convenient directory:
+  `git clone git://github.com/ondrowan/dotfiles.git ~/.dotfiles`
+* Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * Init and update submodules: `git submodule update --init`
-* Symlink any dotfiles you like to home directory. Eg. .zshrc to ~/.zshrc: `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
+* Symlink any dotfiles you like to home directory. Eg. `.zshrc` to `~/.zshrc`:
+  `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
 * Make zsh default shell: `` chsh -s `which zsh` ``
 * Logout and login again
 * Enjoy shinies
