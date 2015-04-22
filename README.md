@@ -28,9 +28,3 @@ Extending .zshrc
 `.localrc` is the last thing in `.zshrc`, so feel free to override anything you don't like also.
 
 If you wish to extend `PATH`, you should do it in `~/.zshenv` as it's sourced on every shell invocation.
-
-
-Extending .gitconfig
---------------------
-
-`.gitconfig` sources `~/.gitlocal` if it exists. Save any local modifications (name, email...) there.
