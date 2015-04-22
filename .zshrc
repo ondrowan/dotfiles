@@ -6,14 +6,20 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ondrej"
 ZSH_CUSTOM=$DOTFILES/zsh
 
-plugins=(git python django symfony2 zsh-syntax-highlighting composer history-substring-search)
+# GNU utilities
+# Those need to be located before `dircolors` invocation as this command is
+# not available in OSX by default.
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+plugins=(git python django zsh-syntax-highlighting history-substring-search brew docker lein pip redis-cli vagrant virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # python virtual env wrapper
-if [ -f ~/.local/bin/virtualenvwrapper.sh ]; then
+if [ -f ~/Library/Python/2.7/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=~/.virtualenvs
-    source ~/.local/bin/virtualenvwrapper.sh
+    source ~/Library/Python/2.7/bin/virtualenvwrapper.sh
     plugins=("${plugins[@]}" virtualenvwrapper)
 fi
 
@@ -46,3 +52,8 @@ if [ -f ~/.localrc ]
 then
     source ~/.localrc
 fi
+
+PATH="/Users/ondrej/Library/Python/2.7/bin:$PATH"
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
