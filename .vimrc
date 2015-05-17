@@ -30,6 +30,7 @@ Plugin 'mitsuhiko/vim-jinja'
 Plugin 'fatih/vim-go'
 
 " Clojure
+Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'tpope/vim-fireplace'
