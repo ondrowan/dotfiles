@@ -155,7 +155,7 @@ imap <left> <nop>
 imap <right> <nop>
 
 " CtrlP
-let g:ctrlp_custom_ignore = 'node_modules\|pycache\|classes\|target'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|pycache|classes)|(\.(git|hg))$'
 
 set runtimepath^=~/.dotfiles/bundle/ctrlp
 
