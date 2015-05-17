@@ -57,3 +57,5 @@ PATH="/Users/ondrej/Library/Python/2.7/bin:$PATH"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+alias grunt='PATH=$(npm bin):$PATH grunt'
