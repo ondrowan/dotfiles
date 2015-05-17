@@ -162,3 +162,4 @@ set runtimepath^=~/.dotfiles/bundle/ctrlp
 " vim-go
 let go_highlight_space_tab_error = 0
 let go_highlight_trailing_whitespace_error = 0
+let g:go_fmt_command = "goimports"
