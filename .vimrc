@@ -17,6 +17,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'fholgado/minibufexpl.vim'
 
 " Theme
 Plugin 'Wombat'
@@ -66,6 +67,8 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
 autocmd filetype go set nolist
 
+" Buffer
+set hidden
 
 " Indentation
 set nowrap
