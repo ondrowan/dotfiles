@@ -36,6 +36,9 @@ Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'tpope/vim-fireplace'
 
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 
@@ -166,3 +169,6 @@ set runtimepath^=~/.dotfiles/bundle/ctrlp
 let go_highlight_space_tab_error = 0
 let go_highlight_trailing_whitespace_error = 0
 let g:go_fmt_command = "goimports"
+
+" vim-markdown
+let g:vim_markdown_folding_disabled = 1
