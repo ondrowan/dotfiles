@@ -160,6 +160,12 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+" Remapped split pane movement bindings
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+
 " CtrlP
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|pycache|classes)|(\.(git|hg))$'
 
