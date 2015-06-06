@@ -43,6 +43,10 @@ function safe_tmux() {
 
 alias tmux='safe_tmux'
 
+# Disable flow control commands (keeps C-s from freezing everything)
+stty start undef
+stty stop undef
+
 # aliases
 alias ll='ls -alF'
 alias la='ls -A'

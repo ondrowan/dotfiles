@@ -166,6 +166,10 @@ nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
+" Remapped save to Ctrl+s
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
+
 " CtrlP
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|pycache|classes)|(\.(git|hg))$'
 
