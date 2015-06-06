@@ -18,6 +18,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
+Plugin 'tpope/vim-surround'
 
 " Theme
 Plugin 'Wombat'
