@@ -19,6 +19,7 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'terryma/vim-expand-region'
 
 " Theme
 Plugin 'Wombat'
