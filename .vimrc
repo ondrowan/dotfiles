@@ -37,6 +37,7 @@ Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'tpope/vim-fireplace'
+Plugin 'raymond-w-ko/vim-niji'
 
 " Markdown
 Plugin 'godlygeek/tabular'
