@@ -22,8 +22,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
 
 " Theme
-Plugin 'Wombat'
-Plugin 'wombat256.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " Python
 Plugin 'nvie/vim-flake8'
@@ -47,14 +46,10 @@ call vundle#end()
 
 filetype plugin indent on
 
-" Load Wombat theme
-if has("gui_running")
-    colorscheme wombat
-else
-    set t_Co=256
-    syntax on
-    colorscheme wombat256mod
-endif
+" Load theme
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Set font
 if has("mac")
