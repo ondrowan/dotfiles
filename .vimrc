@@ -24,6 +24,7 @@ Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
 Plugin 'godlygeek/tabular'
+Plugin 'BufOnly.vim'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
