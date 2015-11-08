@@ -23,6 +23,7 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
+Plugin 'godlygeek/tabular'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
@@ -42,7 +43,6 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'raymond-w-ko/vim-niji'
 
 " Markdown
-Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
