@@ -20,6 +20,9 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
+Plugin 'Matt-Deacalion/vim-systemd-syntax'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'elzr/vim-json'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
