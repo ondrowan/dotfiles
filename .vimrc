@@ -178,3 +178,6 @@ let g:go_fmt_command = "goimports"
 
 " vim-markdown
 let g:vim_markdown_folding_disabled = 1
+
+" vim-json
+let g:vim_json_syntax_conceal = 0
