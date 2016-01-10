@@ -26,6 +26,7 @@ Plugin 'elzr/vim-json'
 Plugin 'godlygeek/tabular'
 Plugin 'BufOnly.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'rking/ag.vim'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
