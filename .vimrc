@@ -20,13 +20,15 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
-Plugin 'Matt-Deacalion/vim-systemd-syntax'
-Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
 Plugin 'godlygeek/tabular'
 Plugin 'BufOnly.vim'
-Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'rking/ag.vim'
+
+" Misc. syntax
+Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'Matt-Deacalion/vim-systemd-syntax'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
