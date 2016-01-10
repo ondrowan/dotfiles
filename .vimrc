@@ -50,6 +50,8 @@ Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 
+runtime macros/matchit.vim
+
 filetype plugin indent on
 
 " Load theme
