@@ -24,6 +24,7 @@ Plugin 'elzr/vim-json'
 Plugin 'godlygeek/tabular'
 Plugin 'BufOnly.vim'
 Plugin 'rking/ag.vim'
+Plugin 'terryma/vim-multiple-cursors'
 
 " Misc. syntax
 Plugin 'evanmiller/nginx-vim-syntax'
