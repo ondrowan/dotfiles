@@ -51,6 +51,10 @@ Plugin 'raymond-w-ko/vim-niji'
 " Markdown
 Plugin 'plasticboy/vim-markdown'
 
+" Javascript
+Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
+
 call vundle#end()
 
 runtime macros/matchit.vim
