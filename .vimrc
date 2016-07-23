@@ -25,6 +25,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'BufOnly.vim'
 Plugin 'rking/ag.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'kshenoy/vim-signature'
 
 " Misc. syntax
 Plugin 'evanmiller/nginx-vim-syntax'
