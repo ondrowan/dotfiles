@@ -65,3 +65,5 @@ export LANG=en_US.UTF-8
 
 export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin
+
+alias k=kubectl
