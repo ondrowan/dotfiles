@@ -16,16 +16,6 @@ plugins=(git python django zsh-syntax-highlighting history-substring-search brew
 
 source $ZSH/oh-my-zsh.sh
 
-# python virtual env wrapper
-if [ -f ~/Library/Python/2.7/bin/virtualenvwrapper.sh ]; then
-    export WORKON_HOME=~/.virtualenvs
-    source ~/Library/Python/2.7/bin/virtualenvwrapper.sh
-    plugins=("${plugins[@]}" virtualenvwrapper)
-fi
-
-# pythonbrew
-[[ -s ~/.pythonbrew/etc/bashrc ]] && source ~/.pythonbrew/etc/bashrc
-
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
