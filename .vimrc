@@ -180,7 +180,7 @@ map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 
 " CtrlP
-let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
+let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --ignore .git -g ""'
 
 set runtimepath^=~/.dotfiles/bundle/ctrlp
 
