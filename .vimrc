@@ -26,6 +26,7 @@ Plugin 'BufOnly.vim'
 Plugin 'rking/ag.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
+Plugin 'Shougo/vimproc.vim'  " Dependency of Quramy/tsuquyomi
 
 " Misc. syntax
 Plugin 'evanmiller/nginx-vim-syntax'
@@ -55,6 +56,7 @@ Plugin 'plasticboy/vim-markdown'
 " Javascript
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/tsuquyomi'
 
 call vundle#end()
 
