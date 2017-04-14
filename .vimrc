@@ -23,7 +23,7 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'elzr/vim-json'
 Plugin 'godlygeek/tabular'
 Plugin 'BufOnly.vim'
-Plugin 'rking/ag.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
 Plugin 'Shougo/vimproc.vim'  " Dependency of Quramy/tsuquyomi
@@ -183,6 +183,9 @@ imap <C-s> <esc>:w<CR>
 let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --ignore .git -g ""'
 
 set runtimepath^=~/.dotfiles/bundle/ctrlp
+
+" ack.vim
+let g:ackprg = 'ag --vimgrep --smart-case'
 
 " vim-go
 let go_highlight_space_tab_error = 0
