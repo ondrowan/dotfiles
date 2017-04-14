@@ -12,8 +12,6 @@ call vundle#begin()
 " Essentials
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'editorconfig/editorconfig-vim'
