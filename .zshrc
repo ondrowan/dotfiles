@@ -38,6 +38,7 @@ stty start undef
 stty stop undef
 
 # aliases
+alias ls='ls --color=always'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
