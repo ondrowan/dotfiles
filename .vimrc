@@ -24,7 +24,6 @@ Plugin 'BufOnly.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
-Plugin 'Shougo/vimproc.vim'  " Dependency of Quramy/tsuquyomi
 
 " Misc. syntax
 Plugin 'evanmiller/nginx-vim-syntax'
