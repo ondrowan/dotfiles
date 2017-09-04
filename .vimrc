@@ -24,6 +24,7 @@ Plugin 'BufOnly.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
+Plugin 'unblevable/quick-scope'
 
 " Misc. syntax
 Plugin 'evanmiller/nginx-vim-syntax'
@@ -199,3 +200,6 @@ let g:vim_markdown_folding_disabled = 1
 
 " vim-json
 let g:vim_json_syntax_conceal = 0
+
+" quick-scope
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
