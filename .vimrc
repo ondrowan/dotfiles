@@ -69,6 +69,7 @@ colorscheme solarized
 
 " Visual stuff
 set number
+set relativenumber
 set title
 set laststatus=2
 
