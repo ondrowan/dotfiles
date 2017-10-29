@@ -175,6 +175,8 @@ let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --ignore .git -g ""'
 
 set runtimepath^=~/.dotfiles/bundle/ctrlp
 
+nnoremap <silent> <c-p> :ClearCtrlPCache<cr>\|:CtrlP<cr>
+
 " ack.vim
 let g:ackprg = 'ag --vimgrep --smart-case'
 
