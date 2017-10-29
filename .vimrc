@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'Lokaltog/vim-powerline'
+Plugin 'itchyny/lightline.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'tpope/vim-surround'
