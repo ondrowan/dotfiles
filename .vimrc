@@ -25,10 +25,10 @@ Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
 Plugin 'unblevable/quick-scope'
-Plugin 'vim-syntastic/syntastic'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-commentary'
+Plugin 'w0rp/ale'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
