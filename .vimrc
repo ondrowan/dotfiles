@@ -27,6 +27,7 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'unblevable/quick-scope'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'Valloric/YouCompleteMe'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
