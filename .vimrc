@@ -45,9 +45,6 @@ Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'tpope/vim-fireplace'
 Plugin 'raymond-w-ko/vim-niji'
 
-" Typescript
-Plugin 'Quramy/tsuquyomi'
-
 call vundle#end()
 
 runtime macros/matchit.vim
