@@ -25,35 +25,25 @@ Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
 Plugin 'unblevable/quick-scope'
-
-" Misc. syntax
-Plugin 'evanmiller/nginx-vim-syntax'
-Plugin 'Matt-Deacalion/vim-systemd-syntax'
-Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'sheerun/vim-polyglot'
 
 " Theme
 Plugin 'altercation/vim-colors-solarized'
 
 " Python
 Plugin 'nvie/vim-flake8'
-Plugin 'mitsuhiko/vim-jinja'
 
 " Go
 Plugin 'fatih/vim-go'
 
 " Clojure
-Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'tpope/vim-fireplace'
 Plugin 'raymond-w-ko/vim-niji'
 
-" Markdown
-Plugin 'plasticboy/vim-markdown'
-
-" Javascript
-Plugin 'pangloss/vim-javascript'
-Plugin 'leafgarland/typescript-vim'
+" Typescript
 Plugin 'Quramy/tsuquyomi'
 
 call vundle#end()
