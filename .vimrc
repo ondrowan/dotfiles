@@ -116,14 +116,6 @@ nmap <F5> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$', '\.DS_Store$']
 let NERDTreeShowHidden=1
 
-" Powerline
-let g:Powerline_symbols = 'compatible'
-
-" Ultisnip
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
 " Code completion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
