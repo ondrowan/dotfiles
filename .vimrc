@@ -187,3 +187,46 @@ let g:vim_json_syntax_conceal = 0
 
 " quick-scope
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+
+" lightline
+
+" Prefixes filenames in tabs with folder in case there are multiple tabs with
+" the same name open at once.
+"
+" Taken from https://github.com/itchyny/lightline.vim/issues/43
+function! MyTabFilename(n)
+    let buflist = tabpagebuflist(a:n)
+    let winnr = tabpagewinnr(a:n)
+    let bufnum = buflist[winnr - 1]
+    let bufname = expand('#'.bufnum.':t')
+    let buffullname = expand('#'.bufnum.':p')
+    let buffullnames = []
+    let bufnames = []
+    for i in range(1, tabpagenr('$'))
+        if i != a:n
+            let num = tabpagebuflist(i)[tabpagewinnr(i) - 1]
+            call add(buffullnames, expand('#' . num . ':p'))
+            call add(bufnames, expand('#' . num . ':t'))
+        endif
+    endfor
+    let i = index(bufnames, bufname)
+    if strlen(bufname) && i >= 0 && buffullnames[i] != buffullname
+        return substitute(buffullname, '.*/\([^/]\+/\)', '\1', '')
+    else
+        return strlen(bufname) ? bufname : '[No Name]'
+    endif
+endfunction
+
+function! LightLineFilename()
+    return expand('%')
+endfunction
+
+let g:lightline = {
+    \ 'colorscheme': 'solarized',
+    \ 'tab_component_function': {
+    \   'filename': 'MyTabFilename',
+    \ },
+    \ 'component_function': {
+    \   'filename': 'LightLineFilename'
+    \ }
+\ }
