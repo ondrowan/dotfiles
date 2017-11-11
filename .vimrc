@@ -230,3 +230,6 @@ let g:lightline = {
     \   'filename': 'LightLineFilename'
     \ }
 \ }
+
+" ALE
+let g:ale_lint_on_text_changed = 'never'
