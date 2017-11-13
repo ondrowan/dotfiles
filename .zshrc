@@ -21,7 +21,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
 
-eval $( dircolors -b $DOTFILES/LS_COLORS)
+eval $( dircolors -b $DOTFILES/.dircolors)
 
 # tmux
 function safe_tmux() {
