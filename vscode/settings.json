@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "files.autoSave": "off",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.feedback.visible": false
+}

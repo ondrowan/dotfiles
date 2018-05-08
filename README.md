@@ -10,25 +10,35 @@ name and email).
 * zsh
 * git
 * vim
+* Visual Studio Code
 
 
 ## Installation
 
 * Clone this repo to convenient directory:
   `git clone git://github.com/ondrowan/dotfiles.git ~/.dotfiles`
-* Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* Init and update submodules: `git submodule update --init`
 * Symlink any dotfiles you like to home directory. Eg. `.zshrc` to `~/.zshrc`:
   `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
+
+
+### zsh
+
+* Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* Init and update submodules: `git submodule update --init`
 * Make zsh default shell: `` chsh -s `which zsh` ``
 * Logout and login again
-* Enjoy shinies
 
 
-### Additional steps for vim installation
+### vim
 
 * Clone [vundle](https://github.com/gmarik/Vundle.vim): `git clone https://github.com/gmarik/Vundle.vim.git ~/.dotfiles/bundle/Vundle.vim`
 * Install all plugins: `vim +PluginInstall +qall` (or from within vim: `:PluginInstall`)
+
+
+### Visual Studio Code
+
+* Symlink VSCode settings: `ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json`
+* Install extensions: `cat ~/.dotfiles/vscode/extensions | xargs -n1 code --install-extension`
 
 
 ## Extending .zshrc
