@@ -54,6 +54,8 @@ filetype plugin indent on
 " Load theme
 syntax enable
 set background=dark
+let g:solarized_termcolors = 16
+let g:solarized_termtrans = 1
 colorscheme solarized
 
 " Visual stuff
