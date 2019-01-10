@@ -61,3 +61,5 @@ alias k=kubectl
 
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+export HOMEBREW_INSTALL_CLEANUP=true
