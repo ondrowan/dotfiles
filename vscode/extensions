@@ -3,6 +3,7 @@ ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
+rust-lang.rust
 slevesque.shader
 twxs.cmake
 vscodevim.vim
