@@ -6,5 +6,6 @@
     "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
     "workbench.statusBar.feedback.visible": false,
-    "vim.hlsearch": true
+    "vim.hlsearch": true,
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
