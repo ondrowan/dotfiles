@@ -39,6 +39,7 @@ name and email).
 
 * Symlink VSCode settings: `ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json`
 * Install extensions: `cat ~/.dotfiles/vscode/extensions | xargs -n1 code --install-extension`
+* Install [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) extension by hand
 
 
 ## Extending .zshrc
