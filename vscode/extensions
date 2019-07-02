@@ -1,9 +1,16 @@
+coolbear.systemd-unit-file
+dawhite.mustache
 EditorConfig.EditorConfig
+esbenp.prettier-vscode
+geequlim.godot-tools
+ms-azuretools.vscode-docker
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
-rust-lang.rust
+redhat.vscode-yaml
 slevesque.shader
 twxs.cmake
+vsciot-vscode.vscode-arduino
 vscodevim.vim
+webfreak.debug
