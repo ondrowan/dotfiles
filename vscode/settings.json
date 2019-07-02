@@ -12,5 +12,8 @@
     "editor.formatOnSave": true,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "rust-analyzer.cargo-watch.command": "clippy",
+    "rust-analyzer.enableEnhancedTyping": false,
+    "rust-analyzer.enableCargoWatchOnStartup": "enabled"
 }
