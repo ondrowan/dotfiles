@@ -9,5 +9,8 @@
     "vim.hlsearch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "python.formatting.provider": "black",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
