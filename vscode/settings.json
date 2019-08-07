@@ -15,5 +15,6 @@
     },
     "rust-analyzer.cargo-watch.command": "clippy",
     "rust-analyzer.enableEnhancedTyping": false,
-    "rust-analyzer.enableCargoWatchOnStartup": "enabled"
+    "rust-analyzer.enableCargoWatchOnStartup": "enabled",
+    "rust-analyzer.displayInlayHints": false
 }
