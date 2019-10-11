@@ -42,6 +42,17 @@ name and email).
 * Install [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) extension by hand
 
 
+### Cargo plugins
+
+These are some useful Cargo addons that should be installed:
+
+* `cargo-edit`
+* `cargo-audit`
+* `cargo-outdated`
+* `cargo-tree`
+* `cargo-readme`
+
+
 ## Extending .zshrc
 
 `.zshrc` always sources `.localrc` if it exists. Put whatever additional aliases or commands there.
