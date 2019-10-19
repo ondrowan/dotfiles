@@ -23,20 +23,6 @@ setopt HIST_IGNORE_ALL_DUPS
 
 eval $( dircolors -b $DOTFILES/.dircolors)
 
-# tmux
-function safe_tmux() {
-    if command -v deactivate > /dev/null 2>&1; then
-        deactivate
-    fi
-    TERM=xterm-256color \tmux;
-}
-
-alias tmux='safe_tmux'
-
-# Disable flow control commands (keeps C-s from freezing everything)
-stty start undef
-stty stop undef
-
 # aliases
 alias ls='ls --color=always'
 alias ll='ls -alF'
