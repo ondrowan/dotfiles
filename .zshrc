@@ -35,7 +35,7 @@ then
     source ~/.localrc
 fi
 
-PATH="/Users/ondrej/Library/Python/2.7/bin:$PATH"
+PATH="/Users/ondrej/Library/Python/3.7/bin:$PATH"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
