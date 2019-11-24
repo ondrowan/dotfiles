@@ -51,6 +51,7 @@ These are some useful Cargo addons that should be installed:
 * `cargo-outdated`
 * `cargo-tree`
 * `cargo-readme`
+* `cargo-expand`
 
 
 ## Extending .zshrc
