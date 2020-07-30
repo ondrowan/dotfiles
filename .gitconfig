@@ -1,5 +1,7 @@
 [core]
     editor = vim
+    autocrlf = false
+    eol = lf
 
 [push]
     default = current
