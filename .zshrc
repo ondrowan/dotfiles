@@ -45,7 +45,7 @@ export PATH=$PATH:$GOPATH/bin
 
 alias k=kubectl
 
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
 export HOMEBREW_INSTALL_CLEANUP=true
+export LDFLAGS="-L/usr/local/opt/openssl@3/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@3/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@3/lib/pkgconfig"
