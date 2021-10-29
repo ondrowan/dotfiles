@@ -12,7 +12,7 @@ ZSH_CUSTOM=$DOTFILES/zsh
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-plugins=(git python django zsh-syntax-highlighting history-substring-search brew docker lein pip redis-cli vagrant kubectl)
+plugins=(git python zsh-syntax-highlighting history-substring-search brew docker pip redis-cli)
 
 source $ZSH/oh-my-zsh.sh
 
