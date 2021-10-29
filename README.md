@@ -35,13 +35,6 @@ name and email).
 * Install all plugins: `vim +PluginInstall +qall` (or from within vim: `:PluginInstall`)
 
 
-### Visual Studio Code
-
-* Symlink VSCode settings: `ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json`
-* Install extensions: `cat ~/.dotfiles/vscode/extensions | xargs -n1 code --install-extension`
-* Install [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) extension by hand
-
-
 ### Cargo plugins
 
 These are some useful Cargo addons that should be installed:
