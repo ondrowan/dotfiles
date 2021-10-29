@@ -39,12 +39,8 @@ PATH="/Users/ondrej/Library/Python/3.7/bin:$PATH"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
 export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin
-
-alias k=kubectl
-
 export HOMEBREW_INSTALL_CLEANUP=true
 export LDFLAGS="-L/usr/local/opt/openssl@3/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl@3/include"
